@@ -1,0 +1,100 @@
+{
+    "overall": [
+        {
+            "class_id": 0,
+            "class_name": "ship",
+            "gt_count": 19.0,
+            "pred_count": 33.0,
+            "count_error": 14.0,
+            "metrics": {
+                "recall": 0.9473684210526315,
+                "precision": 0.5454545454545454,
+                "f1": 0.6923076923076923,
+                "sensitivity": 0.9473684210526315,
+                "specificity": null
+            },
+            "true_pos": 18.0,
+            "false_pos": 15.0,
+            "false_neg": 1.0
+        },
+        {
+            "class_name": "average",
+            "metrics": {
+                "recall": 0.9473684210526315,
+                "precision": 0.5454545454545454,
+                "f1": 0.6923076923076923,
+                "sensitivity": 0.9473684210526315,
+                "specificity": 0.0
+            },
+            "gt_count": 19.0,
+            "pred_count": 33.0,
+            "count_error": 14.0
+        }
+    ],
+    "per_scene": {
+        "od_test-2": [
+            {
+                "class_id": 0,
+                "class_name": "ship",
+                "gt_count": 8.0,
+                "pred_count": 19.0,
+                "count_error": 11.0,
+                "metrics": {
+                    "recall": 0.875,
+                    "precision": 0.3684210526315789,
+                    "f1": 0.5185185185185185,
+                    "sensitivity": 0.875,
+                    "specificity": null
+                },
+                "true_pos": 7.0,
+                "false_pos": 12.0,
+                "false_neg": 1.0
+            },
+            {
+                "class_name": "average",
+                "metrics": {
+                    "recall": 0.875,
+                    "precision": 0.3684210526315789,
+                    "f1": 0.5185185185185185,
+                    "sensitivity": 0.875,
+                    "specificity": 0.0
+                },
+                "gt_count": 8.0,
+                "pred_count": 19.0,
+                "count_error": 11.0
+            }
+        ],
+        "od_test": [
+            {
+                "class_id": 0,
+                "class_name": "ship",
+                "gt_count": 11.0,
+                "pred_count": 14.0,
+                "count_error": 3.0,
+                "metrics": {
+                    "recall": 1.0,
+                    "precision": 0.7857142857142857,
+                    "f1": 0.88,
+                    "sensitivity": 1.0,
+                    "specificity": null
+                },
+                "true_pos": 11.0,
+                "false_pos": 3.0,
+                "false_neg": 0.0
+            },
+            {
+                "class_name": "average",
+                "metrics": {
+                    "recall": 1.0,
+                    "precision": 0.7857142857142857,
+                    "f1": 0.88,
+                    "sensitivity": 1.0,
+                    "specificity": 0.0
+                },
+                "gt_count": 11.0,
+                "pred_count": 14.0,
+                "count_error": 3.0
+            }
+        ]
+    }
+}

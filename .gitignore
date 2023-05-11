@@ -1,0 +1,7 @@
+*.jp2
+__pycache__
+bundle
+chip
+*.aux.xml
+train/tb-logs
+train/*
